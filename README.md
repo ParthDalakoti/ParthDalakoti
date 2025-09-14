@@ -32,7 +32,7 @@
 ---
 
 ## 🔗 Connect With Me  
-🌍 [LinkedIn](#) • 📫 [Email](#)  
+🌍 [LinkedIn](#) • 📫 [Email](#parthdalakoti482@gmail.com)  
 
 ---
 
