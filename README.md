@@ -22,22 +22,22 @@
 
 ---
 
-## 🏢 Robotics Fleet & Club Platforms ([@ParthDalakoti-Projects](https://github.com/ParthDalakoti-Projects))
+## 🏢 Robotics Fleet & Club Platforms ([@GEHU-Robotics-Club](https://github.com/GEHU-Robotics-Club))
 
-*All competition rovers, combat robots, and open-source club kits are maintained under our dedicated robotics lab organization:*
+*All competition rovers, combat robots, and open-source club kits are maintained under our dedicated robotics club organization:*
 
 | Repository | Focus & Description | Target Hardware |
 | :--- | :--- | :--- |
-| [**gehu-robotics-club-showcase**](https://github.com/ParthDalakoti-Projects/gehu-robotics-club-showcase) | Official robotics club portfolio featuring our national RoboWar combat bots, RoboRace cars, and student workshops. | Multi-Platform, Cytron |
-| [**toing-bot-esp32-bts7960-rover**](https://github.com/ParthDalakoti-Projects/toing-bot-esp32-bts7960-rover) | 5th-place national RoboWar combat robot built with an ESP32 and dual 43A BTS7960 motor drivers. | ESP32, BTS7960 43A |
-| [**arduino-bluetooth-robot-car-dfplayer**](https://github.com/ParthDalakoti-Projects/arduino-bluetooth-robot-car-dfplayer) | 6th-place RoboRace vehicle with differential drive and voice telemetry via a DFPlayer Mini module. | Arduino Nano, DFPlayer |
-| [**esp32-face-gesture-robot**](https://github.com/ParthDalakoti-Projects/esp32-face-gesture-robot) | Mobile robot that tracks human face angles in real time using Python OpenCV and Wi-Fi telemetry to ESP32. | ESP32, OpenCV HIL |
-| [**arduino-multi-sensor-navigation-bot**](https://github.com/ParthDalakoti-Projects/arduino-multi-sensor-navigation-bot) | Self-driving obstacle avoidance robot fusing ultrasonic ping timing and infrared proximity sensors. | Arduino Uno, HC-SR04 |
-| [**esp32-inbuilt-bluetooth-rover-app**](https://github.com/ParthDalakoti-Projects/esp32-inbuilt-bluetooth-rover-app) | Smartphone-controlled rover running bare-metal PWM motor control via ESP32 Classic Bluetooth SPP. | ESP32, Bluetooth SPP |
-| [**ir-remote-obstacle-avoiding-robot**](https://github.com/ParthDalakoti-Projects/ir-remote-obstacle-avoiding-robot) | Multi-mode autonomous obstacle avoider with manual override using standard 38kHz TV remote signals. | Arduino Uno, 38kHz IR |
-| [**nrf24l01-basic-rf-motor-car**](https://github.com/ParthDalakoti-Projects/nrf24l01-basic-rf-motor-car) | Custom 2.4 GHz handheld remote and receiver car built using low-power NRF24L01+ transceivers. | Arduino Uno, NRF24L01+ |
-| [**wifo-2.0-ble-dual-app-controller**](https://github.com/ParthDalakoti-Projects/wifo-2.0-ble-dual-app-controller) | Low-power BLE multi-channel automation board supporting dual concurrent mobile app connections. | ESP32, BLE 4.2 GATT |
-| [**wifo-basic-ble-system**](https://github.com/ParthDalakoti-Projects/wifo-basic-ble-system) | Single-channel Bluetooth Low Energy peripheral for wireless relay switching from iOS/Android. | ESP32, BLE Peripheral |
+| [**gehu-robotics-club-showcase**](https://github.com/GEHU-Robotics-Club/gehu-robotics-club-showcase) | Official robotics club portfolio featuring our national RoboWar combat bots, RoboRace cars, and student workshops. | Multi-Platform, Cytron |
+| [**toing-bot-esp32-bts7960-rover**](https://github.com/GEHU-Robotics-Club/toing-bot-esp32-bts7960-rover) | 5th-place national RoboWar combat robot built with an ESP32 and dual 43A BTS7960 motor drivers. | ESP32, BTS7960 43A |
+| [**arduino-bluetooth-robot-car-dfplayer**](https://github.com/GEHU-Robotics-Club/arduino-bluetooth-robot-car-dfplayer) | 6th-place RoboRace vehicle with differential drive and voice telemetry via a DFPlayer Mini module. | Arduino Nano, DFPlayer |
+| [**esp32-face-gesture-robot**](https://github.com/GEHU-Robotics-Club/esp32-face-gesture-robot) | Mobile robot that tracks human face angles in real time using Python OpenCV and Wi-Fi telemetry to ESP32. | ESP32, OpenCV HIL |
+| [**arduino-multi-sensor-navigation-bot**](https://github.com/GEHU-Robotics-Club/arduino-multi-sensor-navigation-bot) | Self-driving obstacle avoidance robot fusing ultrasonic ping timing and infrared proximity sensors. | Arduino Uno, HC-SR04 |
+| [**esp32-inbuilt-bluetooth-rover-app**](https://github.com/GEHU-Robotics-Club/esp32-inbuilt-bluetooth-rover-app) | Smartphone-controlled rover running bare-metal PWM motor control via ESP32 Classic Bluetooth SPP. | ESP32, Bluetooth SPP |
+| [**ir-remote-obstacle-avoiding-robot**](https://github.com/GEHU-Robotics-Club/ir-remote-obstacle-avoiding-robot) | Multi-mode autonomous obstacle avoider with manual override using standard 38kHz TV remote signals. | Arduino Uno, 38kHz IR |
+| [**nrf24l01-basic-rf-motor-car**](https://github.com/GEHU-Robotics-Club/nrf24l01-basic-rf-motor-car) | Custom 2.4 GHz handheld remote and receiver car built using low-power NRF24L01+ transceivers. | Arduino Uno, NRF24L01+ |
+| [**wifo-2.0-ble-dual-app-controller**](https://github.com/GEHU-Robotics-Club/wifo-2.0-ble-dual-app-controller) | Low-power BLE multi-channel automation board supporting dual concurrent mobile app connections. | ESP32, BLE 4.2 GATT |
+| [**wifo-basic-ble-system**](https://github.com/GEHU-Robotics-Club/wifo-basic-ble-system) | Single-channel Bluetooth Low Energy peripheral for wireless relay switching from iOS/Android. | ESP32, BLE Peripheral |
 
 ---
 
