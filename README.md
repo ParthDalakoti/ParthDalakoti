@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/gehu-robotics-club-logo.jpg" width="160" alt="Robotics Club GEHU Official Logo" style="border-radius: 16px;" /></p>
+
 # Parth Dalakoti
 ### **Embedded Systems & Robotics Engineer**
 🎓 **B.Tech in Electronics & Communication Engineering (2023–2027)** — *Graphic Era Hill University (GEHU), Bhimtal*  
