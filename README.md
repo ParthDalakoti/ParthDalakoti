@@ -1,7 +1,7 @@
 # Parth Dalakoti
 ### **Embedded Systems & Robotics Engineer**
 🎓 **B.Tech in Electronics & Communication Engineering (2023–2027)** — *Graphic Era Hill University (GEHU), Bhimtal*  
-👑 **President**, Robotics & Automation Club, GEHU  
+👑 **President**, Robotics & Automation Club, GEHU ([@GEHU-Robotics-Club](https://github.com/GEHU-Robotics-Club))  
 📍 Haldwani, Uttarakhand, India • ✉️ [parthdalakoti482@gmail.com](mailto:parthdalakoti482@gmail.com) • 💼 [LinkedIn Profile](https://linkedin.com/in/parthdalakoti)
 
 ```text
@@ -16,9 +16,67 @@
 ## 🏆 Engineering Leadership & Key Competitions
 
 * 🥇 **President, Robotics & Automation Club (GEHU):** Leading competitive university robotics teams and conducting hands-on engineering workshops (over 200+ students mentored on microcontrollers, C++ firmware, and circuit design).
-* ⚔️ **5th Position — National RoboWar Competition (Dehradun Campus):** Designed and piloted a high-torque combat robot with armored chassis, dual Cytron/BTS7960 motor drives, 3S/4S LiPo power distribution, and 2.4 GHz FlySky radio control.
-* 🏎️ **6th Position — National RoboRace Competition:** Engineered a high-speed vehicle with tuned PWM differential steering and real-time audio telemetry.
+* ⚔️ **5th Position — National RoboWar Competition (Dehradun Campus):** Designed, built, and piloted a heavy-armored combat robot with dual Cytron/BTS7960 motor drivers, 3S/4S LiPo power distribution, and 2.4 GHz radio control.
+* 🏎️ **6th Position — National RoboRace Competition:** Engineered a high-speed vehicle with tuned PWM differential steering curves and real-time audio telemetry.
 * 💡 **Campus Field Deployment:** Designed and installed an **Adaptive Motion + LDR Street Light Energy Conservation System** on the GEHU campus, cutting lighting energy consumption by up to 70%.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/parth-dalakoti-gehu-student-mentorship.jpg" width="100%" alt="Mentoring GEHU Robotics Students" style="border-radius: 8px;" />
+      <br />
+      <b>Mentoring 200+ Students in Circuit Design & Microcontrollers</b>
+      <br />
+      <i>Conducting robotics workshop in the computer and simulation lab at GEHU</i>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/robowar-combat-bot-arena-battle.jpg" width="100%" alt="5th Position National RoboWar Combat Bot" style="border-radius: 8px;" />
+      <br />
+      <b>5th Position National RoboWar Combat Bot in Arena</b>
+      <br />
+      <i>Armored combat robot deployed inside the national championship arena</i>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Hardware Engineering Arsenal & Hands-On Prototyping
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/parth-embedded-hardware-arsenal-gehu.jpg" width="100%" alt="Complete Hardware Arsenal at GEHU" style="border-radius: 8px;" />
+      <br />
+      <b>Embedded Systems Hardware Arsenal</b>
+      <br />
+      <i>Raspberry Pi, STM32 Blue Pill, ESP32, GSM modem, 8-relay board, high-torque geared motors & power electronics</i>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/parth-dalakoti-soldering-bench.jpg" width="100%" alt="Parth Dalakoti at Soldering Bench" style="border-radius: 8px;" />
+      <br />
+      <b>Hands-On Prototyping & Board Bring-Up</b>
+      <br />
+      <i>Hardware assembly, precision soldering, and signal verification in the electronics lab</i>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/arduino-nano-breadboard-training-station.jpg" width="100%" alt="Breadboard Training Station & 2.4GHz RF Remote" style="border-radius: 8px;" />
+      <br />
+      <b>Modular Breadboard Rover & 2.4GHz Remote</b>
+      <br />
+      <i>Arduino Nano training chassis alongside DIY dual-joystick nRF24L01 transmitter</i>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/parth-dalakoti-hardware-assembly.jpg" width="100%" alt="Mechanical Calibration & Servo Assembly" style="border-radius: 8px;" />
+      <br />
+      <b>Robotic Linkage & Mechanical Calibration</b>
+      <br />
+      <i>Calibrating steering linkages and pan-tilt turret mechanisms</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -35,7 +93,7 @@
 | [**arduino-multi-sensor-navigation-bot**](https://github.com/GEHU-Robotics-Club/arduino-multi-sensor-navigation-bot) | Self-driving obstacle avoidance robot fusing ultrasonic ping timing and infrared proximity sensors. | Arduino Uno, HC-SR04 |
 | [**esp32-inbuilt-bluetooth-rover-app**](https://github.com/GEHU-Robotics-Club/esp32-inbuilt-bluetooth-rover-app) | Smartphone-controlled rover running bare-metal PWM motor control via ESP32 Classic Bluetooth SPP. | ESP32, Bluetooth SPP |
 | [**ir-remote-obstacle-avoiding-robot**](https://github.com/GEHU-Robotics-Club/ir-remote-obstacle-avoiding-robot) | Multi-mode autonomous obstacle avoider with manual override using standard 38kHz TV remote signals. | Arduino Uno, 38kHz IR |
-| [**nrf24l01-basic-rf-motor-car**](https://github.com/GEHU-Robotics-Club/nrf24l01-basic-rf-motor-car) | Custom 2.4 GHz handheld remote and receiver car built using low-power NRF24L01+ transceivers. | Arduino Uno, NRF24L01+ |
+| [**nrf24l01-wireless-robot-controller**](https://github.com/GEHU-Robotics-Club/nrf24l01-wireless-robot-controller) | Custom 2.4 GHz handheld remote and receiver car built using low-power NRF24L01+ transceivers. | Arduino Uno, NRF24L01+ |
 | [**wifo-2.0-ble-dual-app-controller**](https://github.com/GEHU-Robotics-Club/wifo-2.0-ble-dual-app-controller) | Low-power BLE multi-channel automation board supporting dual concurrent mobile app connections. | ESP32, BLE 4.2 GATT |
 | [**wifo-basic-ble-system**](https://github.com/GEHU-Robotics-Club/wifo-basic-ble-system) | Single-channel Bluetooth Low Energy peripheral for wireless relay switching from iOS/Android. | ESP32, BLE Peripheral |
 
@@ -106,7 +164,7 @@
 | **Microcontrollers & SBCs** | ESP32 (WROOM-32), ESP8266 (NodeMCU), Arduino (Nano, Uno, Mega), Raspberry Pi 3 Model B, STM32 |
 | **Buses & Hardware Protocols** | SPI, I2C, UART, ESP-NOW, Bluetooth Low Energy (BLE 4.0), NRF24L01 (2.4GHz GFSK), IR NEC, PWM, ADC, GPIO Interrupts |
 | **Programming Languages** | C, C++, Embedded C, Python, MATLAB |
-| **Power Electronics & Drivers** | BTS7960 (43A H-Bridge), Cytron, L298N, L293D, Optocoupled Relays, SG90/MG996R Servos, Resonant Inductive Coils, MOSFETs |
+| **Power Electronics & Drivers** | BTS7960 (43A H-Bridge), Cytron SmartDriveDuo-30, L298N, L293D, Optocoupled Relays, SG90/MG996R Servos, Resonant Inductive Coils, MOSFETs |
 | **Sensors & Peripherals** | MFRC522 (RFID), MQ-2 (Gas/Smoke), MQ-3 (Alcohol), HC-SR04 (Ultrasonic), PIR, LDR, LM35/NTC, 16x2 I2C LCD |
 | **EDA & Simulation Tools** | Wokwi Simulator, Tinkercad Circuits, Proteus Design Suite, KiCad, LTSpice |
 | **Software Rigor** | Git, GitHub Actions, Linux Sysfs/GPIO, PlatformIO, Arduino IDE |
