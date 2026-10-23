@@ -13,88 +13,89 @@
 
 ---
 
-## 🏆 Key Engineering Achievements & Leadership
+## 🏆 Engineering Leadership & Key Competitions
 
 * 🥇 **President, Robotics & Automation Club (GEHU):** Leading competitive university robotics teams and conducting hands-on engineering workshops (over 200+ students mentored on microcontrollers, C++ firmware, and circuit design).
-* ⚔️ **5th Position — RoboWar National Competition (Dehradun Campus):** Engineered a high-torque combat robot with armored chassis, dual Cytron motor drives, 3S/4S LiPo power distribution, and 2.4 GHz FlySky AFHDS radio control.
-* 🏎️ **6th Position — RoboRace Competition:** Designed a low-center-of-gravity speed vehicle with differential steering and tuned PWM drive curves.
-* 💡 **Campus Field Deployment:** Successfully designed and installed an **Adaptive Motion + LDR Street Light Energy Conservation System** on the GEHU campus, cutting unnecessary lighting power consumption.
+* ⚔️ **5th Position — National RoboWar Competition (Dehradun Campus):** Designed and piloted a high-torque combat robot with armored chassis, dual Cytron/BTS7960 motor drives, 3S/4S LiPo power distribution, and 2.4 GHz FlySky radio control.
+* 🏎️ **6th Position — National RoboRace Competition:** Engineered a high-speed vehicle with tuned PWM differential steering and real-time audio telemetry.
+* 💡 **Campus Field Deployment:** Designed and installed an **Adaptive Motion + LDR Street Light Energy Conservation System** on the GEHU campus, cutting lighting energy consumption by up to 70%.
 
 ---
 
-## 📂 Complete Standalone Projects Portfolio (42 Repositories)
+## 🏢 Robotics Fleet & Club Platforms ([@ParthDalakoti-Projects](https://github.com/ParthDalakoti-Projects))
 
-Every single project below is hosted as an **independent, standalone GitHub repository** complete with native source code (`.ino`, `.cpp`, `.py`), Bill of Materials (BOM), hardware schematics, and pinout tables:
+*All competition rovers, combat robots, and open-source club kits are maintained under our dedicated robotics lab organization:*
 
-### ⚡ 1. Automotive, Clean Energy & Instrumentation
-| Repository | Description | Target MCU | Primary Protocol |
-| :--- | :--- | :--- | :--- |
-| [**smart-wireless-ev-charging-system**](https://github.com/ParthDalakoti/smart-wireless-ev-charging-system) | **Major Project:** Dual ESP32 Inductive EV Charging Station with RFID, Safety Cutoffs & **Wokwi Simulation**. | Dual ESP32 | SPI, I2C, Resonant Coils |
-| [**drunk-driver-detection-iot-system**](https://github.com/ParthDalakoti/drunk-driver-detection-iot-system) | Automotive Alcohol Interlock with MQ-3 sensor, Blynk IoT cloud, and servo starter lockout. | ESP8266 | ADC, Blynk 2.0, PWM |
-| [**vehicle-speed-monitoring-system**](https://github.com/ParthDalakoti/vehicle-speed-monitoring-system) | Automotive Speed & RPM Tachometer using hardware interrupts (`INT0`), EEPROM odometer, and BLE. | ATmega328P | Interrupts, EEPROM, BLE |
-| [**footstep-piezoelectric-energy-harvester**](https://github.com/ParthDalakoti/footstep-piezoelectric-energy-harvester) | Footstep-Based Piezoelectric Floor Tiles with Bridge Rectifier & Supercapacitor Storage. | Arduino Uno | Analog ADC, Energy Storage |
-| [**ev-wireless-power-transfer-module**](https://github.com/ParthDalakoti/ev-wireless-power-transfer-module) | Inductive Resonant Wireless Power Transfer Module with Primary LC Tank Driver. | Arduino Nano | Induction, PWM |
-
----
-
-### 🤖 2. Competitive Robotics, Unmanned Vehicles & Motion Control
-| Repository | Description | Target MCU | Primary Protocol |
-| :--- | :--- | :--- | :--- |
-| [**nrf24l01-telemetry-robot-rover**](https://github.com/ParthDalakoti/nrf24l01-telemetry-robot-rover) | Heavy-duty 2.4 GHz RF rover with BTS7960 43A H-Bridge motor drivers and full indicator telemetry. | Arduino Uno | NRF24L01+ (SPI), High-Amp PWM |
-| [**toing-bot-esp32-bts7960-rover**](https://github.com/ParthDalakoti/toing-bot-esp32-bts7960-rover) | High-Torque Mobile Rover powered by ESP32 and BTS7960 43A Driver with Slew-Rate Limiting. | ESP32 | High-Current PWM |
-| [**arduino-bluetooth-robot-car-dfplayer**](https://github.com/ParthDalakoti/arduino-bluetooth-robot-car-dfplayer) | Bluetooth Serial Controlled Robot Car with DFPlayer Mini Audio Synthesis. | Arduino Nano | SoftwareSerial, PWM |
-| [**ir-remote-obstacle-avoiding-robot**](https://github.com/ParthDalakoti/ir-remote-obstacle-avoiding-robot) | Infrared Remote & Ultrasonic Sensor Autonomous Obstacle Avoidance Robot. | Arduino Uno | 38kHz NEC IR, HC-SR04 |
-| [**esp32-inbuilt-bluetooth-rover-app**](https://github.com/ParthDalakoti/esp32-inbuilt-bluetooth-rover-app) | ESP32 Inbuilt Classic Bluetooth Smartphone-Controlled Telemetry Rover. | ESP32 | Bluetooth SPP, PWM |
-| [**arduino-multi-sensor-navigation-bot**](https://github.com/ParthDalakoti/arduino-multi-sensor-navigation-bot) | Autonomous Navigation Robot Platform integrating Ultrasonic and IR Sensors. | Arduino Uno | Pulse Timing, H-Bridge |
-| [**nrf24l01-basic-rf-motor-car**](https://github.com/ParthDalakoti/nrf24l01-basic-rf-motor-car) | Dedicated 2.4 GHz RF Motor Vehicle Controller using NRF24L01 Transceivers. | Arduino Uno | SPI RF, L298N |
-| [**esp32-face-gesture-robot**](https://github.com/ParthDalakoti/esp32-face-gesture-robot) | ESP32 Robot Rover steered via Real-Time Computer Vision Face Gesture Telemetry. | ESP32 | Wi-Fi Telemetry, PWM |
-| [**gehu-robotics-club-showcase**](https://github.com/ParthDalakoti/gehu-robotics-club-showcase) | Technical logs for 5th-rank RoboWar combat bot, 6th-rank RoboRace car, and workshop decks. | Multi-Platform | FlySky AFHDS 2A, Cytron |
+| Repository | Focus & Description | Target Hardware |
+| :--- | :--- | :--- |
+| [**gehu-robotics-club-showcase**](https://github.com/ParthDalakoti-Projects/gehu-robotics-club-showcase) | Official robotics club portfolio featuring our national RoboWar combat bots, RoboRace cars, and student workshops. | Multi-Platform, Cytron |
+| [**toing-bot-esp32-bts7960-rover**](https://github.com/ParthDalakoti-Projects/toing-bot-esp32-bts7960-rover) | 5th-place national RoboWar combat robot built with an ESP32 and dual 43A BTS7960 motor drivers. | ESP32, BTS7960 43A |
+| [**arduino-bluetooth-robot-car-dfplayer**](https://github.com/ParthDalakoti-Projects/arduino-bluetooth-robot-car-dfplayer) | 6th-place RoboRace vehicle with differential drive and voice telemetry via a DFPlayer Mini module. | Arduino Nano, DFPlayer |
+| [**esp32-face-gesture-robot**](https://github.com/ParthDalakoti-Projects/esp32-face-gesture-robot) | Mobile robot that tracks human face angles in real time using Python OpenCV and Wi-Fi telemetry to ESP32. | ESP32, OpenCV HIL |
+| [**arduino-multi-sensor-navigation-bot**](https://github.com/ParthDalakoti-Projects/arduino-multi-sensor-navigation-bot) | Self-driving obstacle avoidance robot fusing ultrasonic ping timing and infrared proximity sensors. | Arduino Uno, HC-SR04 |
+| [**esp32-inbuilt-bluetooth-rover-app**](https://github.com/ParthDalakoti-Projects/esp32-inbuilt-bluetooth-rover-app) | Smartphone-controlled rover running bare-metal PWM motor control via ESP32 Classic Bluetooth SPP. | ESP32, Bluetooth SPP |
+| [**ir-remote-obstacle-avoiding-robot**](https://github.com/ParthDalakoti-Projects/ir-remote-obstacle-avoiding-robot) | Multi-mode autonomous obstacle avoider with manual override using standard 38kHz TV remote signals. | Arduino Uno, 38kHz IR |
+| [**nrf24l01-basic-rf-motor-car**](https://github.com/ParthDalakoti-Projects/nrf24l01-basic-rf-motor-car) | Custom 2.4 GHz handheld remote and receiver car built using low-power NRF24L01+ transceivers. | Arduino Uno, NRF24L01+ |
+| [**wifo-2.0-ble-dual-app-controller**](https://github.com/ParthDalakoti-Projects/wifo-2.0-ble-dual-app-controller) | Low-power BLE multi-channel automation board supporting dual concurrent mobile app connections. | ESP32, BLE 4.2 GATT |
+| [**wifo-basic-ble-system**](https://github.com/ParthDalakoti-Projects/wifo-basic-ble-system) | Single-channel Bluetooth Low Energy peripheral for wireless relay switching from iOS/Android. | ESP32, BLE Peripheral |
 
 ---
 
-### 📡 3. Wireless Protocols, RF & Telemetry
-| Repository | Description | Target MCU | Primary Protocol |
-| :--- | :--- | :--- | :--- |
-| [**esp32-espnow-bidirectional-telemetry**](https://github.com/ParthDalakoti/esp32-espnow-bidirectional-telemetry) | Ultra-low latency (<5ms) connectionless peer-to-peer telemetry protocol with joystick auto-calibration. | Dual ESP32 | ESP-NOW (Direct MAC), ADC |
-| [**rf-2.4ghz-frequency-detector-scanner**](https://github.com/ParthDalakoti/rf-2.4ghz-frequency-detector-scanner) | 2.4 GHz RF Spectrum Energy Detector & Frequency Presence Scanner with RSSI Bar. | Arduino Nano | RSSI Sampling, ADC |
-| [**hm10-ble-8channel-relay-controller**](https://github.com/ParthDalakoti/hm10-ble-8channel-relay-controller) | Industrial 8-channel optocoupled relay controller operated over Bluetooth Low Energy. | Arduino Nano | HM-10 BLE 4.0, Optoisolation |
-| [**wifo-2.0-ble-dual-app-controller**](https://github.com/ParthDalakoti/wifo-2.0-ble-dual-app-controller) | Multi-Channel Bluetooth Low Energy Appliance Switchboard with Dual Mobile App Pairing. | ESP32 | BLE 4.2 GATT, Relays |
-| [**wifo-basic-ble-system**](https://github.com/ParthDalakoti/wifo-basic-ble-system) | Single-Channel Bluetooth Low Energy Peripheral Hardware Bridge for Device Switching. | ESP32 | BLE Peripheral Mode |
-| [**bluetooth-capacitor-discharge-system**](https://github.com/ParthDalakoti/bluetooth-capacitor-discharge-system) | Automated High-Voltage Capacitor Safe Discharge Controller operated via Bluetooth BLE. | Arduino Nano | BLE Telemetry, Relay |
+## 📂 Core Embedded Systems, IoT & Hardware Engineering ([@ParthDalakoti](https://github.com/ParthDalakoti))
+
+### ⚡ 1. Automotive & Clean Energy Systems
+| Repository | Description | Key Tech |
+| :--- | :--- | :--- |
+| [**smart-wireless-ev-charging-system**](https://github.com/ParthDalakoti/smart-wireless-ev-charging-system) | **Flagship Capstone:** Autonomous wireless EV charging station using resonant induction coils, dual ESP32 telemetry, and live Wokwi simulation. | Dual ESP32, Resonant Coils, Wokwi |
+| [**drunk-driver-detection-iot-system**](https://github.com/ParthDalakoti/drunk-driver-detection-iot-system) | Automotive safety system that locks the vehicle starter motor upon detecting alcohol vapor via an MQ-3 sensor. | ESP8266, MQ-3, Servo Lock |
+| [**vehicle-speed-monitoring-system**](https://github.com/ParthDalakoti/vehicle-speed-monitoring-system) | Digital vehicle odometer and tachometer measuring wheel speed via hardware interrupts (`INT0`) and EEPROM storage. | ATmega328P, INT0, EEPROM |
+| [**footstep-piezoelectric-energy-harvester**](https://github.com/ParthDalakoti/footstep-piezoelectric-energy-harvester) | Kinetic energy harvester generating usable DC power from footstep impact across a piezoelectric disc array. | Piezoelectric Array, Supercap |
+| [**ev-wireless-power-transfer-module**](https://github.com/ParthDalakoti/ev-wireless-power-transfer-module) | Resonant inductive coupling wireless power transmitter driving an LC tank circuit for contactless battery charging. | LC Resonant Tank, Induction |
 
 ---
 
-### ☁️ 4. IoT Cloud, Smart Home & Industrial Automation
-| Repository | Description | Target MCU | Primary Protocol |
-| :--- | :--- | :--- | :--- |
-| [**esp32-sinric-iot-voice-automation**](https://github.com/ParthDalakoti/esp32-sinric-iot-voice-automation) | Smart Home controller featuring Sinric Pro (Alexa/Google Voice), 38kHz IR remote, and NTP clock. | ESP32 | Sinric Pro, WebSockets, IR |
-| [**blynk-ntp-clock-home-automation**](https://github.com/ParthDalakoti/blynk-ntp-clock-home-automation) | ESP32 IoT Home Automation with NTP Real-Time Clock, DHT Alerts, and Auto-Off Timers. | ESP32 | NTP UDP, Blynk 2.0, I2C |
-| [**blynk-ir-remote-home-controller**](https://github.com/ParthDalakoti/blynk-ir-remote-home-controller) | Dual-Mode Home Appliance Controller featuring Blynk IoT Cloud and Local 38kHz IR Remote. | ESP32 | Blynk Wi-Fi, 38kHz NEC IR |
-| [**home-automation-3-nano-esp32**](https://github.com/ParthDalakoti/home-automation-3-nano-esp32) | Hybrid Smart Home Controller utilizing an ESP32 for Cloud and an Arduino Nano for Relays. | ESP32 & Nano | UART Inter-MCU Bus |
-| [**temperature-controlled-ac-appliances**](https://github.com/ParthDalakoti/temperature-controlled-ac-appliances) | Closed-Loop Thermal AC Appliance Automation System with Precision Thermistor Sampling. | Arduino Uno | Analog ADC, Relays |
-| [**ir-receiver-relay-switching-system**](https://github.com/ParthDalakoti/ir-receiver-relay-switching-system) | Standalone Infrared Remote Control Switchboard with 38kHz TSOP1738 Demodulation. | Arduino Nano | 38kHz NEC IR, Relays |
-| [**bts-motor-serial-speed-controller**](https://github.com/ParthDalakoti/bts-motor-serial-speed-controller) | Serial Terminal ASCII Command Motor Speed Controller with BTS7960 43A Driver. | Arduino Nano | UART ASCII, 43A PWM |
+### 📡 2. Low-Latency RF & Wireless Protocols
+| Repository | Description | Key Tech |
+| :--- | :--- | :--- |
+| [**esp32-espnow-bidirectional-telemetry**](https://github.com/ParthDalakoti/esp32-espnow-bidirectional-telemetry) | High-speed peer-to-peer wireless telemetry (<5ms latency) between dual ESP32s with analog joystick calibration. | Dual ESP32, ESP-NOW, Direct MAC |
+| [**nrf24l01-telemetry-robot-rover**](https://github.com/ParthDalakoti/nrf24l01-telemetry-robot-rover) | Heavy-duty 2.4 GHz RF rover featuring dual BTS7960 43A motor drivers and bi-directional battery telemetry. | NRF24L01+, BTS7960 43A |
+| [**rf-2.4ghz-frequency-detector-scanner**](https://github.com/ParthDalakoti/rf-2.4ghz-frequency-detector-scanner) | Handheld 2.4 GHz RF field strength detector displaying ambient signal intensity on a 10-LED bar graph. | RF Demodulation, ADC Bar Graph |
+| [**hm10-ble-8channel-relay-controller**](https://github.com/ParthDalakoti/hm10-ble-8channel-relay-controller) | 8-channel optoisolated relay bank controlled over Bluetooth 4.0 Low Energy from a custom Android/iOS dashboard. | HM-10 BLE 4.0, Optoisolators |
+| [**bluetooth-capacitor-discharge-system**](https://github.com/ParthDalakoti/bluetooth-capacitor-discharge-system) | Safety circuit that automatically and safely discharges high-voltage capacitor banks via Bluetooth BLE telemetry. | BLE, Relay, Safety Cutoff |
 
 ---
 
-### 👁️ 5. Edge AI, Computer Vision, Sensors & Security
-| Repository | Description | Target MCU | Primary Protocol |
-| :--- | :--- | :--- | :--- |
-| [**vision-gesture-arduino-controller**](https://github.com/ParthDalakoti/vision-gesture-arduino-controller) | Real-time computer vision hand landmark detection using MediaPipe Hands (Python) over UART. | Arduino Nano | Python, MediaPipe, UART |
-| [**esp32-iot-gas-leakage-detection-system**](https://github.com/ParthDalakoti/esp32-iot-gas-leakage-detection-system) | Industrial combustible gas and smoke detector utilizing ESP32 12-bit ADC and I2C LCD. | ESP32 | 12-bit ADC, I2C 100kHz |
-| [**adaptive-night-street-light-esp32**](https://github.com/ParthDalakoti/adaptive-night-street-light-esp32) | Campus-deployed smart lighting controller using dual PIR motion sensors and LDR ambient lux. | ESP32 | PIR Interrupts, LDR ADC |
-| [**ultrasonic-radar-security-system**](https://github.com/ParthDalakoti/ultrasonic-radar-security-system) | 180-Degree Ultrasonic Sweep Radar Security System using SG90 Servo and HC-SR04. | Arduino Uno | HC-SR04 Echo Timing, PWM |
-| [**laser-tripwire-security-system**](https://github.com/ParthDalakoti/laser-tripwire-security-system) | Optical Laser Tripwire Perimeter Security System with LDR Receiver and High-Decibel Siren. | Arduino Nano | Optical Beam Break |
-| [**esp32-mfrc522-rfid-id-system**](https://github.com/ParthDalakoti/esp32-mfrc522-rfid-id-system) | High-Speed SPI MFRC522 RFID Card Reader with ISO/IEC 14443A Tag UID Validation. | ESP32 | Hardware VSPI, 13.56 MHz |
-| [**ultrasonic-servo-toll-gate**](https://github.com/ParthDalakoti/ultrasonic-servo-toll-gate) | Automated Ultrasonic Vehicle Barrier & Toll Gate Actuation System with SG90 Servo. | Arduino Uno | Ultrasonic Timing, PWM |
-| [**pir-ldr-night-motion-lighting**](https://github.com/ParthDalakoti/pir-ldr-night-motion-lighting) | Energy-Efficient Nighttime Illumination Controller using Dual PIR and LDR Optical Thresholding. | Arduino Nano | Digital Interrupts, LDR |
-| [**arduino-acoustic-clap-switch**](https://github.com/ParthDalakoti/arduino-acoustic-clap-switch) | Acoustic Clap-Activated AC Relay Switchboard with Analog Microphone Audio Envelope Detection. | Arduino Uno | Analog Audio ADC, Relays |
-| [**servo-angle-pwm-controller**](https://github.com/ParthDalakoti/servo-angle-pwm-controller) | Multi-Channel Precision Servo Angle Tester & PWM Pulse Calibration Bench. | Arduino Nano | 50Hz Timer PWM, ADC |
-| [**led-water-flow-pattern-generator**](https://github.com/ParthDalakoti/led-water-flow-pattern-generator) | ESP32 High-Speed Multiplexed LED Fluid Flow Visual Simulation System. | ESP32 | Multiplexed Digital GPIO |
-| [**magic-box-interactive-controller**](https://github.com/ParthDalakoti/magic-box-interactive-controller) | Interactive Puzzle & Security Lock Box using Multi-Sensor Finite State Machine (FSM) Logic. | Arduino Uno | Finite State Machine |
-| [**raspberry-pi-rfid-access-control**](https://github.com/ParthDalakoti/raspberry-pi-rfid-access-control) | Embedded Linux physical access daemon on Raspberry Pi 3B using hardware SPI (`spidev`). | Raspberry Pi 3B | Linux SPI, Python 3 |
-| [**raspberry-pi-ir-relay-controller**](https://github.com/ParthDalakoti/raspberry-pi-ir-relay-controller) | Embedded Linux IR Remote Receiver and Relay Switch Daemon using Python RPi.GPIO. | Raspberry Pi 3B | Linux GPIO, 38kHz IR |
-| [**raspberry-pi-led-flow-controller**](https://github.com/ParthDalakoti/raspberry-pi-led-flow-controller) | Embedded Linux Multi-Channel LED Sequencer and Pattern Generator in Python on Raspberry Pi. | Raspberry Pi 3B | Linux GPIO, Python 3 |
+### ☁️ 3. Cloud IoT & Industrial Smart Home
+| Repository | Description | Key Tech |
+| :--- | :--- | :--- |
+| [**esp32-sinric-iot-voice-automation**](https://github.com/ParthDalakoti/esp32-sinric-iot-voice-automation) | Voice-controlled smart home hub syncing Alexa and Google Assistant with physical switches and an IR remote. | Sinric Pro, WebSockets, 38kHz IR |
+| [**blynk-ntp-clock-home-automation**](https://github.com/ParthDalakoti/blynk-ntp-clock-home-automation) | ESP32 smart clock and 4-channel appliance controller synchronized to UTC via Network Time Protocol (NTP UDP). | NTP UDP, Blynk 2.0 Cloud |
+| [**blynk-ir-remote-home-controller**](https://github.com/ParthDalakoti/blynk-ir-remote-home-controller) | Dual-input home automation controller letting you toggle AC appliances via both Blynk IoT cloud and a 38kHz IR remote. | Blynk IoT, TSOP1738 IR |
+| [**home-automation-3-nano-esp32**](https://github.com/ParthDalakoti/home-automation-3-nano-esp32) | Distributed smart home network linking an ESP32 master to Arduino Nano satellite nodes over a UART bus. | Multi-MCU UART Bus |
+| [**temperature-controlled-ac-appliances**](https://github.com/ParthDalakoti/temperature-controlled-ac-appliances) | Closed-loop climate control circuit regulating fans and heaters based on real-time analog thermistor readings. | Analog ADC, Relay Hysteresis |
+| [**ir-receiver-relay-switching-system**](https://github.com/ParthDalakoti/ir-receiver-relay-switching-system) | Compact appliance controller decoding NEC protocol pulses from standard handheld TV remotes. | NEC Protocol, TSOP1738 |
+| [**bts-motor-serial-speed-controller**](https://github.com/ParthDalakoti/bts-motor-serial-speed-controller) | High-current DC motor speed and direction controller using a BTS7960 43A H-bridge over serial terminal commands. | Serial ASCII, 43A PWM |
+
+---
+
+### 👁️ 4. Edge AI, Computer Vision, Sensors & Hardware Security
+| Repository | Description | Key Tech |
+| :--- | :--- | :--- |
+| [**vision-gesture-arduino-controller**](https://github.com/ParthDalakoti/vision-gesture-arduino-controller) | Control physical Arduino hardware in real time with hand gestures using MediaPipe, OpenCV, and 115200-baud UART. | MediaPipe Hands, Python, UART HIL |
+| [**raspberry-pi-rfid-access-control**](https://github.com/ParthDalakoti/raspberry-pi-rfid-access-control) | Physical access control system built on Raspberry Pi using hardware SPI, MFRC522 RFID reader, and SQLite logs. | Raspberry Pi 3B, Linux SPI, Python |
+| [**esp32-iot-gas-leakage-detection-system**](https://github.com/ParthDalakoti/esp32-iot-gas-leakage-detection-system) | Industrial safety monitor measuring combustible gas and smoke levels using an MQ-2 sensor and ESP32 12-bit ADC. | ESP32 12-bit ADC, MQ-2, I2C LCD |
+| [**adaptive-night-street-light-esp32**](https://github.com/ParthDalakoti/adaptive-night-street-light-esp32) | Energy-saving street lighting system deployed on our university campus, cutting power use by 70% with LDR and PIR motion sensing. | Campus Deployed, PIR, LDR |
+| [**ultrasonic-radar-security-system**](https://github.com/ParthDalakoti/ultrasonic-radar-security-system) | Miniature sonar radar sweeping a 180-degree field of view using a servo-mounted HC-SR04 ultrasonic sensor. | SG90 Servo, HC-SR04, Radar Sweep |
+| [**laser-tripwire-security-system**](https://github.com/ParthDalakoti/laser-tripwire-security-system) | Optical laser security perimeter alarm triggering a buzzer and latch relay upon beam obstruction. | Optical Beam Break, LDR |
+| [**esp32-mfrc522-rfid-id-system**](https://github.com/ParthDalakoti/esp32-mfrc522-rfid-id-system) | Contactless identification system reading 13.56MHz Mifare cards via ESP32 hardware VSPI bus. | Hardware VSPI, 13.56MHz RFID |
+| [**ultrasonic-servo-toll-gate**](https://github.com/ParthDalakoti/ultrasonic-servo-toll-gate) | Automated boom barrier simulating highway toll plazas with vehicle presence detection and servo actuation. | Ultrasonic Timing, SG90 PWM |
+| [**pir-ldr-night-motion-lighting**](https://github.com/ParthDalakoti/pir-ldr-night-motion-lighting) | Low-power outdoor motion light turning on only when both darkness (LDR) and human motion (PIR) are detected. | PIR Motion, LDR Ambient |
+| [**arduino-acoustic-clap-switch**](https://github.com/ParthDalakoti/arduino-acoustic-clap-switch) | Acoustic sound-activated relay switch using an electret microphone module with analog threshold debouncing. | Electret Microphone, Debounce |
+| [**servo-angle-pwm-controller**](https://github.com/ParthDalakoti/servo-angle-pwm-controller) | Benchtop calibration tool generating accurate 50Hz PWM signals to test and center micro-servos. | 50Hz Timer PWM, Potentiometer |
+| [**led-water-flow-pattern-generator**](https://github.com/ParthDalakoti/led-water-flow-pattern-generator) | Fluid visual LED chaser and sequencer running custom multiplexed lighting patterns on an ESP32. | ESP32 GPIO, Pattern Generator |
+| [**magic-box-interactive-controller**](https://github.com/ParthDalakoti/magic-box-interactive-controller) | Puzzle box controller implementing a finite state machine with ultrasonic distance sensing and servo lock. | Finite State Machine, FSM |
+| [**raspberry-pi-ir-relay-controller**](https://github.com/ParthDalakoti/raspberry-pi-ir-relay-controller) | Raspberry Pi 3B infrared appliance controller running Linux GPIO event detection in Python. | Linux GPIO, Python RPi.GPIO |
+| [**raspberry-pi-led-flow-controller**](https://github.com/ParthDalakoti/raspberry-pi-led-flow-controller) | Python hardware timing test on Raspberry Pi 3B benchmarking GPIO output switching speeds. | Linux GPIO, Benchmark |
 
 ---
 
@@ -102,13 +103,13 @@ Every single project below is hosted as an **independent, standalone GitHub repo
 
 | Domain | Tools & Technologies |
 | :--- | :--- |
-| **Microcontrollers & SBCs** | ESP32 (WROOM-32), ESP8266 (NodeMCU), Arduino (Nano, Uno, Mega), Raspberry Pi 3 Model B, STM32, PIC |
+| **Microcontrollers & SBCs** | ESP32 (WROOM-32), ESP8266 (NodeMCU), Arduino (Nano, Uno, Mega), Raspberry Pi 3 Model B, STM32 |
 | **Buses & Hardware Protocols** | SPI, I2C, UART, ESP-NOW, Bluetooth Low Energy (BLE 4.0), NRF24L01 (2.4GHz GFSK), IR NEC, PWM, ADC, GPIO Interrupts |
 | **Programming Languages** | C, C++, Embedded C, Python, MATLAB |
 | **Power Electronics & Drivers** | BTS7960 (43A H-Bridge), Cytron, L298N, L293D, Optocoupled Relays, SG90/MG996R Servos, Resonant Inductive Coils, MOSFETs |
 | **Sensors & Peripherals** | MFRC522 (RFID), MQ-2 (Gas/Smoke), MQ-3 (Alcohol), HC-SR04 (Ultrasonic), PIR, LDR, LM35/NTC, 16x2 I2C LCD |
 | **EDA & Simulation Tools** | Wokwi Simulator, Tinkercad Circuits, Proteus Design Suite, KiCad, LTSpice |
-| **Software Rigor** | Git, GitHub Actions, Linux Sysfs/GPIO, PlatformIO, Arduino IDE, FreeRTOS concepts |
+| **Software Rigor** | Git, GitHub Actions, Linux Sysfs/GPIO, PlatformIO, Arduino IDE |
 
 ---
 
